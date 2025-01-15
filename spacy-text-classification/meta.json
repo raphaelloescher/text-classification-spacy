@@ -19,13 +19,13 @@
   "labels":{
     "textcat":[
       "Hardware",
-      "Purchase",
-      "HR Support",
       "Access",
-      "Internal Project",
-      "Administrative rights",
       "Miscellaneous",
-      "Storage"
+      "HR Support",
+      "Purchase",
+      "Administrative rights",
+      "Storage",
+      "Internal Project"
     ]
   },
   "pipeline":[
@@ -38,57 +38,57 @@
 
   ],
   "performance":{
-    "cats_score":0.7636792525,
+    "cats_score":0.8541904246,
     "cats_score_desc":"macro F",
-    "cats_micro_p":0.7766666667,
-    "cats_micro_r":0.7766666667,
-    "cats_micro_f":0.7766666667,
-    "cats_macro_p":0.8361552801,
-    "cats_macro_r":0.7219221819,
-    "cats_macro_f":0.7636792525,
-    "cats_macro_auc":0.9500281075,
+    "cats_micro_p":0.8506479933,
+    "cats_micro_r":0.8506479933,
+    "cats_micro_f":0.8506479933,
+    "cats_macro_p":0.870729106,
+    "cats_macro_r":0.8398198096,
+    "cats_macro_f":0.8541904246,
+    "cats_macro_auc":0.9782938364,
     "cats_f_per_type":{
       "Hardware":{
-        "p":0.6764705882,
-        "r":0.8679245283,
-        "f":0.7603305785
-      },
-      "Purchase":{
-        "p":1.0,
-        "r":0.8928571429,
-        "f":0.9433962264
-      },
-      "HR Support":{
-        "p":0.7962962963,
-        "r":0.735042735,
-        "f":0.7644444444
+        "p":0.8318149965,
+        "r":0.8601449275,
+        "f":0.8457427859
       },
       "Access":{
-        "p":0.875,
-        "r":0.8125,
-        "f":0.8425925926
-      },
-      "Internal Project":{
-        "p":1.0,
-        "r":0.5625,
-        "f":0.72
-      },
-      "Administrative rights":{
-        "p":0.7142857143,
-        "r":0.4761904762,
-        "f":0.5714285714
+        "p":0.8945530726,
+        "r":0.8804123711,
+        "f":0.8874263942
       },
       "Miscellaneous":{
-        "p":0.7425742574,
-        "r":0.7894736842,
-        "f":0.7653061224
+        "p":0.7961956522,
+        "r":0.8371428571,
+        "f":0.8161559889
+      },
+      "HR Support":{
+        "p":0.8389388915,
+        "r":0.8405315615,
+        "f":0.8397344713
+      },
+      "Purchase":{
+        "p":0.9623893805,
+        "r":0.8752515091,
+        "f":0.9167544784
+      },
+      "Administrative rights":{
+        "p":0.8389261745,
+        "r":0.730994152,
+        "f":0.78125
       },
       "Storage":{
-        "p":0.8846153846,
-        "r":0.6388888889,
-        "f":0.7419354839
+        "p":0.905204461,
+        "r":0.8758992806,
+        "f":0.8903107861
+      },
+      "Internal Project":{
+        "p":0.897810219,
+        "r":0.8181818182,
+        "f":0.8561484919
       }
     },
-    "textcat_loss":2.1186889982
+    "textcat_loss":3.5691627592
   }
 }
