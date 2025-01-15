@@ -1,0 +1,14 @@
+{
+  "labels":[
+    "Hardware",
+    "Purchase",
+    "HR Support",
+    "Access",
+    "Internal Project",
+    "Administrative rights",
+    "Miscellaneous",
+    "Storage"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}

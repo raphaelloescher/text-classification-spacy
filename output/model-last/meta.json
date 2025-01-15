@@ -1,0 +1,94 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.8.3,<3.9.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"be0fa81",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat":[
+      "Hardware",
+      "Purchase",
+      "HR Support",
+      "Access",
+      "Internal Project",
+      "Administrative rights",
+      "Miscellaneous",
+      "Storage"
+    ]
+  },
+  "pipeline":[
+    "textcat"
+  ],
+  "components":[
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.7434067371,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.7583333333,
+    "cats_micro_r":0.7583333333,
+    "cats_micro_f":0.7583333333,
+    "cats_macro_p":0.8090775829,
+    "cats_macro_r":0.7063932452,
+    "cats_macro_f":0.7434067371,
+    "cats_macro_auc":0.9426536909,
+    "cats_f_per_type":{
+      "Hardware":{
+        "p":0.6852791878,
+        "r":0.8490566038,
+        "f":0.7584269663
+      },
+      "Purchase":{
+        "p":1.0,
+        "r":0.8928571429,
+        "f":0.9433962264
+      },
+      "HR Support":{
+        "p":0.7672413793,
+        "r":0.7606837607,
+        "f":0.7639484979
+      },
+      "Access":{
+        "p":0.8787878788,
+        "r":0.7767857143,
+        "f":0.8246445498
+      },
+      "Internal Project":{
+        "p":0.9411764706,
+        "r":0.5,
+        "f":0.6530612245
+      },
+      "Administrative rights":{
+        "p":0.6470588235,
+        "r":0.5238095238,
+        "f":0.5789473684
+      },
+      "Miscellaneous":{
+        "p":0.6730769231,
+        "r":0.7368421053,
+        "f":0.7035175879
+      },
+      "Storage":{
+        "p":0.88,
+        "r":0.6111111111,
+        "f":0.7213114754
+      }
+    },
+    "textcat_loss":0.4557075743
+  }
+}
