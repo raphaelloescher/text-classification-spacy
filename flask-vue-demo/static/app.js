@@ -33,9 +33,11 @@ const app = Vue.createApp({
                 const data = await response.json();
                 console.log(data.predictions)
 
-                // Hardware (87.7%)
+                const formatted_categories = data.predictions.map(prediction => `${prediction[0]} (${(prediction[1] * 100).toFixed(2)}%)`);
+                
 
-                this.recommendations = data.predictions;
+                
+                this.recommendations = formatted_categories;
             } catch (error) {
                 alert("Error fetching recommendations.");
                 console.error(error);
